@@ -1425,7 +1425,7 @@ function drawSpike(b,ctx,s){
     ctx.fillText('🫃',0,0);
     // Crown on top
     ctx.font=`${sz*0.9}px serif`;
-    ctx.fillText('💀',-sz,−sz);
+    ctx.fillText('💀',-sz,-sz);
     // Aura ring
     ctx.strokeStyle='rgba(255,107,53,0.5)';ctx.lineWidth=3;
     const pulse=0.8+Math.sin(Date.now()*0.005)*0.2;
